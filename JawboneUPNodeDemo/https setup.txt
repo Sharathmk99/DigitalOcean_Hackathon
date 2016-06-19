@@ -1,0 +1,3 @@
+C:\Users\Admin\Downloads\openssl-0.9.8k_X64 openssl genrsa -out server.key 2048
+C:\Users\Admin\Downloads\openssl-0.9.8k_X64 openssl req -new -key server.key -out server.csr -config C:\Users\Admin\Downloads\openssl-0.9.8k_X64\openssl.cnf
+C:\Users\Admin\Downloads\openssl-0.9.8k_X64\openssl x509 -req -in server.csr -out server.crt -signkey server.key -days 365
